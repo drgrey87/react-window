@@ -209,7 +209,7 @@ export default function createListComponent({
           scrollOffset: scrollOffset,
           scrollUpdateWasRequested: true,
         };
-      }, this._resetIsScrollingDebounced);
+      });
     }
 
     scrollToItem(index: number, align: ScrollToAlign = 'auto'): void {
